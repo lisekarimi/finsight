@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Performance Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-text">Power BI Dashboard</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Financial Performance Dashboard</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Multi-entity financial management with real-time analytics across revenue, expenses, and profitability
+                </p>
+                <div class="hero-cta">
+                    <a href="#dashboard" class="cta-button">View Live Dashboard</a>
+                </div>
+            </div>
+            <div class="hero-decoration">
+                <div class="decoration-circle circle-1"></div>
+                <div class="decoration-circle circle-2"></div>
+                <div class="decoration-circle circle-3"></div>
+            </div>
+        </section>
+
+        <!-- Key Features Section - Compact -->
+        <section class="content-section">
+            <div class="section-header">
+                <h2 class="section-title-large">Features</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Multi-Entity Tracking</h3>
+                    <p class="feature-text">Manage multiple companies across 8+ countries</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Complete Financial View</h3>
+                    <p class="feature-text">Revenue, expenses, profit, and cash flow in one place</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Analytics</h3>
+                    <p class="feature-text">Automated YoY comparisons and growth tracking</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Real-Time Insights</h3>
+                    <p class="feature-text">Live data with 92+ financial measures</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Dashboard Section -->
+        <section id="dashboard" class="dashboard-section">
+            <div class="dashboard-wrapper">
+                <div class="dashboard-header">
+                    <div class="header-left">
+                        <div class="header-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 3v18h18M7 16l4-4 4 4 6-6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h2 class="dashboard-title">Interactive Dashboard</h2>
+                            <p class="dashboard-subtitle">Explore your financial data</p>
+                        </div>
+                    </div>
+                    <div class="header-badge">
+                        <span>Live Data</span>
+                    </div>
+                </div>
+
+                <div class="dashboard-notice">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                    </svg>
+                    <p>For better visibility, open this on a desktop and switch to full-screen mode for easier navigation and clearer visuals.</p>
+                </div>
+
+                <div class="dashboard-frame-container">
+                    <iframe
+                        id="powerbi-embed"
+                        class="powerbi-embed"
+                        src="https://app.powerbi.com/view?r=eyJrIjoiNTJmOGIwYTctNmRiZS00MzI4LWI0ZmUtODQ3Y2RiOWJhMDhjIiwidCI6ImYxNThkZGMxLTExYTUtNDhjOS1iNjUzLWRhMzY5MTNjMGUxNyJ9&pageName=SUMMARY"
+                        frameborder="0"
+                        allowFullScreen="true"
+                        style="zoom: 1; transform: scale(1);">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits - Compact Grid -->
+        <section class="content-section">
+            <div class="section-header">
+                <h2 class="section-title-large">Why Choose This Solution</h2>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏱️</div>
+                    <h3 class="benefit-title">Save Time</h3>
+                    <p class="benefit-text">Eliminate manual consolidation</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3 class="benefit-title">Better Decisions</h3>
+                    <p class="benefit-text">Data-driven insights instantly</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">👁️</div>
+                    <h3 class="benefit-title">Full Control</h3>
+                    <p class="benefit-text">Real-time financial visibility</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📦</div>
+                    <h3 class="benefit-title">Scalable</h3>
+                    <p class="benefit-text">Grows with your business</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <div class="cta-card">
+                <h2 class="cta-title">Ready to Transform Your Financial Insights?</h2>
+                <p class="cta-text">See how this solution works for your business,<br>or explore more projects in our portfolio</p>
+                <div class="cta-buttons">
+                    <a href="mailto:lisekarimi@gmail.com" class="cta-button-primary">Contact Us</a>
+                    <a href="https://lisekarimi.com" class="cta-button-secondary" target="_blank" rel="noopener noreferrer">Visit our portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                </div>
+                <p class="footer-text">Built with Microsoft Power BI</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
